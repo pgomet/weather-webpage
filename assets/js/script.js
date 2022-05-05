@@ -149,7 +149,7 @@ function populate5DayForecast(secondCallData) {
     
         var fullDay = (date.getMonth() + 1) + "/" + date.getDate() + "/"  + date.getFullYear(); // Date
         var iconWeather = secondCallData.daily[i].weather[0].icon // icon
-        let fahrenheitTemp = secondCallData.daily[i].temp.day // Temp @ fahrenheit
+        let fahrenheitTemp = secondCallData.daily[i].temp.day // Temperature
         let humidity = secondCallData.daily[i].humidity;
 
         let eachDayContainer = document.createElement("div");
